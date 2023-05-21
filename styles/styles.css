@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    background-image: url(https://2.bp.blogspot.com/--cAQRGDGYEI/TZOhdoGnwpI/AAAAAAAAAbU/6kPEEbp4esM/s1600/SpaceArtWallpapers09.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+  
+h1 {
+    text-align: center;
+    color: rgba(53, 6, 43, 0.5);
+}
+
+  
+.print__btn {
+    width: 200px;
+    max-width: 200px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(168, 145, 145, 0.726);
+    padding: 30px;
+    box-shadow: 4px 4px 8px rgba(236, 229, 229, 0.2);
+    border-radius: 50px;
+}
+  
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 100%;
+}
+  
+form {
+    display: flex;
+}
+  
+input {
+    padding: 15px 10px;
+    outline: none;
+    width: 475px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 1px rgba(53, 6, 43, 0.5);
+}
+  
+.li-container {
+    background-color: rgba(168, 145, 145, 0.1);
+    width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+}
+  
+ul {
+    padding: 0;
+}
+  
+li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+}
+  
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 425px;
+}
+  
+.btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+}
+  
+.btn-delete:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+  
+.btn-add {
+    padding: 10px 20px;
+    margin-left:5px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: teal;
+    box-shadow: 2px 2px 5px 1px rgba(53, 6, 43, 0.5);
+    font-size: 1.4rem;
+    outline: none;
+}
+  
+.btn-add:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+  
+.empty {
+    color: rgba(53, 6, 43, 0.5);
+    font-weight: 700;
+    text-align: center;
+    display: inline;
+}
+
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dateRight {
+    display: flex;
+    align-items: center;
+}
+
+
+header{
+    background-color: rgba(53, 6, 43, 0.5);
+    border-radius: 30px;
+}
+
+
+#dateNumber {
+    font-size: 50px;
+}
+
+#dateText {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#dateMonth,
+#dateNumber,
+#dateText  {
+    font-weight: bold;
+}
+
+#dateMonth,
+#dateYear {
+    margin-left: 15px;
+    font-size: 18px;
+}
